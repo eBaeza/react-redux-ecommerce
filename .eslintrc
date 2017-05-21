@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "jsx-a11y",
+    "react"
+  ],
+  "rules": {
+    "global-require": 0,
+    "arrow-body-style": 0,
+    "space-before-function-paren": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-filename-extension": 1,
+    "react/forbid-prop-types": 1,
+    "jsx-a11y/anchor-has-content": 0,
+    "semi": 0,
+    "no-underscore-dangle": 0
+  }
+}
